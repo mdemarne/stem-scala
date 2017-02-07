@@ -6,6 +6,6 @@ package stem.contract.mutation
  * @author mdemarne (mdemarne@outlook.com)
  */
 trait Seed {
-  /** Represents the identity of the given seed. Identities are unique. */
-  val identity: Identity
+  /** Represents the spieces of the given seed. */
+  val spieces: Spieces
 }

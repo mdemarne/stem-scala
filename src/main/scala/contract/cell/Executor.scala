@@ -10,6 +10,6 @@ trait Executor {
     * type. Returns True on success, False otherwise. */
   def mutate(sp: mutation.Program): Boolean
   /** Rever the current mutation. The old mutation is restored, and the
-    * Spieces of the restored mutation is returned. */
-  def revert: mutation.Spieces
+    * species of the restored mutation is returned. */
+  def revert: mutation.Species
 }

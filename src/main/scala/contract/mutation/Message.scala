@@ -8,8 +8,8 @@ package stem.contract.mutation
  * @author mdemarne (mdemarne@outlook.com)
  */
 trait Message {
-  /** Spieces from which this message is sent. */
-  val from: Spieces
-  /** Spieces to which this message is sent. */
-  val to: Spieces
+  /** Species from which this message is sent. */
+  val from: Species
+  /** Species to which this message is sent. */
+  val to: Species
 }

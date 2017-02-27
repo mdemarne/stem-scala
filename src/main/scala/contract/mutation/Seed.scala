@@ -6,6 +6,6 @@ package stem.contract.mutation
  * @author mdemarne (mdemarne@outlook.com)
  */
 trait Seed {
-  /** Represents the spieces of the given seed. */
-  val spieces: Spieces
+  /** Represents the species of the given seed. */
+  val spieces: Species
 }

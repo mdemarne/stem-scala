@@ -6,8 +6,8 @@ package stem.contract.mutation
  * @author mdemarne (mdemarne@outlook.com)
  */
 trait Program {
-  /** Represents the spieces of the given program. */
-  val spieces: Spieces
+  /** Represents the species of the given program. */
+  val spieces: Species
   /** Represents the original seed of the given program. */
   val seed: Seed
 }

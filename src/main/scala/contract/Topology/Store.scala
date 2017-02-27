@@ -9,6 +9,9 @@ import stem.contract._
 trait Store {
   /** Save a given mutation based on its unique spieces. */
   def save(program: mutation.Seed): Unit
-  /** fetches a given mutation based on its unique spieces. */
+  /** Fetches a given mutation based on its unique spieces. */
   def fetch(sp: mutation.Spieces): Option[mutation.Seed]
+  /** Checks whenever the local topology store contains a given mutation or
+   * not. */
+  def contains(sp: mutation.Spieces): Boolean
 }

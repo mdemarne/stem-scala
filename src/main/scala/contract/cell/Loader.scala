@@ -11,4 +11,6 @@ import scala.util.Try
 trait Loader {
   /** Loads a given mutation seed, transforms it into a program. */
   def load(seed: mutation.Seed): Try[mutation.Program]
+  /** Loads a given mutation if locally stored, transforms into a program. */
+  def load(sp: mutation.Spieces) : Try[mutation.Program]
 }
